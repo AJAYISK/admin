@@ -8,24 +8,24 @@
     <style>
 *{box-sizing: border-box;}
 body{font-family: arial;background-color: oldlace;}
-h1{text-align: center;}
+h1{text-align: center;background-color:red;padding:10px;}
 ::placeholder{color: black;}
 input[type = "text"],[type = "email"]{width: 100%;padding: 10px;
     margin-bottom:10px;outline: none;border: 2px solid lightblue;}
 textarea{width: 100%;padding: 30px;outline: none;}
-input[type = "submit"]{width: 100%;padding: 10px;}
+input[type = "submit"]{width: 100%;padding: 20px;}
     </style>
 </head>
 <body>
     <h1>SEND COMPLAINT</h1>
-    <form action="index.php" method="POST">
+<form action="index.php" method="POST">
     <label for="email">EMAIL:</label>
 <input type="email" name="email"placeholder="@JOHNDOE@GMAIL.COM" required>
 <label for="name">NAME:</label>
 <input type="text" name="name"placeholder="JOHN DOE" required>
 <label for="complaint">YOUR COMPLIANT:</label>
-<textarea rows="10" cols="30" placeholder="......."></textarea>
-<input type="submit" name="login" value="SUBMIT-COMPLAINT"
-    </form>
+<textarea rows="10" cols="30" placeholder="......." name="complain"></textarea>
+<input type="submit" name="login" value="SUBMIT-COMPLAINT">
+</form>
 </body>
 </html>
