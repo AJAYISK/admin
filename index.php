@@ -12,5 +12,5 @@ if($_POST["login"]){
 }
 
 ?>
-//goes here after
+
 <script>location.href="www.google.com";</script>
